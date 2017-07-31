@@ -1,11 +1,14 @@
-package com.qait.TATOC_Basic;
+package com.qait.TATOC;
 
 import java.sql.Connection;
+
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-
+/**@author Navendu Shukla
+ * 
+ * */
 public class DBhandler {
 
 	

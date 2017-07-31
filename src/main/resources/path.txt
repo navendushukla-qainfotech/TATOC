@@ -1,0 +1,51 @@
+##TATOC_BASIC
+
+basic: xpath: //a[text()='Basic Course']
+greenbox: xpath: //div[@class='greenbox']
+
+#Dungeon
+required_colour: xpath: .//*[@id='answer']
+paintbox_2: xpath: //a[text()='Repaint Box 2']
+proceed_dungeon: xpath: //a[text()='Proceed']
+
+#Drag_Around
+drag_box: xpath: .//div[@id='dragbox']
+drop_box: xpath: .//div[@id='dropbox']
+proceed_drag: xpath: //a[text()='Proceed']
+
+#pop_up_window
+launch_pop_up: xpath: //a[text()='Launch Popup Window']
+input_name: xpath: .//input[@id='name']
+submit_name: xpath: .//input[@id='submit']
+proceed_pop_up: xpath: //a[text()='Proceed']
+
+#Cookie_handling
+generate_token: xpath: //a[text()='Generate Token']
+Token_string: xpath: .//span[@id='token']
+proceed_cookie: xpath: //a[text()='Proceed']
+confirmation: xpath: //span[@class='finish']
+
+##TATOC_ADVANCED
+
+advanced: xpath: //a[text()='Advanced Course']
+
+#hover_menu
+menu_title: xpath: //span[@class='menutitle']
+go_next: xpath: //span[text()='Go Next']
+
+#query_gate
+current_symbol: xpath: .//div[@id='symboldisplay']
+name: xpath: //input[@id='name']
+passkey: xpath: //input[@id='passkey']
+submit_query: xpath: //input[@id='submit']
+
+#restful
+session_id: xpath: //span[@id='session_id']
+proceed_restful: xpath: //a[text()='Proceed']
+
+#file_handler
+download_file: xpath: //a[text()='Download File']
+input_signature: xpath: //input[@name='signature']
+submit_file: xpath: //input[@class='submit']
+
+
